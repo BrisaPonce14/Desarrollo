@@ -1,0 +1,93 @@
+<!-- estrucutra -->
+<!DOCTYPE html>
+<html lang="en">
+    <!--ve el browser pero no siempre el ususario-->
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!--favico-->
+    <link rel="apple-touch-icon" sizes="180x180" href="./favicon/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./favicon/favicon-16x16.png">
+    <link rel="manifest" href="./favicon/manifest.json">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+</head>
+
+<!--Ve el usuario-->
+<body>
+    <!--etiquetas semanticas-->
+    <!--cabecera del doc-->
+    <header>
+<h1>Peliculas</h1>
+<h2>Selecciona el genero que mas te gusta</h2>
+    </header>
+    <!--menu de navegacion-->
+    <nav>
+ <a href="#_Terror">
+    Terror |
+</a>
+<a href="#_Comedia">
+    Comedia |
+</a>
+<a href="#_Drama">
+    Drama
+</a>
+
+<!--listas no ordenadas-->
+<ul>
+    <li>
+        <a href="./html/multimedia.html">
+            Multimedia
+        </a>
+    </li>
+    <li>
+        <a href="#_Comedia">
+            Comedia
+        </a>
+    </li>
+    <li>
+        <a href="#_Drama">
+            Drama
+        </a>
+    </li>
+</ul>
+    </nav>
+    <!--contenido principal-->
+    <main>
+        <section id="_Terror">
+            <h3> Terror </h3>
+            <a href="./html/tablaterror.html"
+            target="_blank">
+            <img src="./img/terror.jpg" 
+            width="50%"
+            height="30%">
+            </a>
+            <!--para que sirve alt-->
+
+        </section>
+        <section id="_Comedia">
+            <h3>Comedia</h3>
+            <a href="./html/tablacomedia.html"
+            target="_blank"> 
+            <img src="./img/comedia.jpg"
+            name="pelisdecomedia"
+            width="50%"> 
+            </a>
+            
+        </section>
+        <section id="_Drama">
+            <h3>Drama</h3>
+            <a href="./html/tabladrama.html"
+            target="_blank">
+            <img src="./img/Drama.jpg"
+            name="pelisdedrama"
+            width="50%">
+            </a>
+        </section>
+    </main>
+
+</body>
+</html>

@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <fieldset>
+        <legend>Datos Personales</legend>
+    <header>
+        <h1>
+            Formulario
+        </h1>
+    </header>
+    <main>
+        <form action="./resultado.html">
+            <div>
+            <label for="nombre">Nombre</label>
+            <input maxlength="5" id="nombre" placeholder="Rocio">
+            </div>
+            <div>
+            <label>Edad</label>
+            <input type="number" min="0" max="120">
+            <label>Mes</label>
+            <input type="number" min="1" max="11">
+            <input type="range" steps="20" value="100">
+            </div>
+            <div>
+                <label>Fecha de nacimiento</label>
+                <input type="date">
+
+            </div>
+            <div>
+                <label for="Foto">Foto</label>
+                <input type="file">
+            </div>
+            <div>
+                <label>Nacionalida</label>
+                <select name="Nacionalidad">
+                    <option value="Argentina">Argentina</option>
+                    <option value="Brasil">Brasil</option>
+                    <option value="Paraguay">Paraguay</option>
+                    <option value="Uruguay">Uruguay</option>
+                    <option value="Chile">Chile</option>
+
+                </select>
+
+            </div>
+            <div>
+                <label>
+                    Telefono
+                </label>
+                <input type="tel" id="telefono">
+            </div>
+            <div>
+                <label>Desea:</label>
+                <span>Comprar</span>
+                <input type="radio"
+                        name="Desea"
+                        value="comprar">
+                <span>Alquilar</span>
+                <input type="radio"
+                    name="Desea"
+                    value="alquilar">        
+            </div>
+
+            <div>
+                <button>Enviar</button>
+            </div>
+            <button type="reset">Limpiar</button>
+        </form>
+    </fieldset>
+    <section>
+    <form method="post">
+        <div>
+        <h3>Login</h3>
+        <label>Usuario</label>
+        <input type="text"
+            name="usuario"
+            required>
+        </div>
+        <div>
+            <label>Password</label>
+            <input type="password"
+                name="password"
+                required>
+        </div>
+        <button>
+            Login
+        </button>
+    </form>
+    </section>
+<a href="../index.html">Volver</a>
+    </main> 
+</body>
+</html>
